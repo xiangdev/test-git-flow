@@ -33,4 +33,11 @@ jobs:
       
     - name: Pull Request Analytics
       uses: AlexSim93/pull-request-analytics-action@v3.1.3
+      with:
+          # Github token
+          GITHUB_TOKEN: #?
+          # Github repo for issue
+          GITHUB_REPO_FOR_ISSUE: android-app
+          # Github owner for issue
+          GITHUB_OWNER_FOR_ISSUE: theiconic
             
